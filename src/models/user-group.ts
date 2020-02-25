@@ -59,6 +59,7 @@ export default class UserGroup extends Model {
     const signingKey = await SigningKey.create({ userGroupId: this._id });
     this.attrs.signingKeyId = signingKey._id;
     this.privateKey = signingKey.attrs.privateKey;
+    addUserGroupKey(this);
     // await this.makeGaiaConfig();
     const { username } = loadUserData();
     const invitation = await this.makeGroupMembership(username);
