@@ -46,13 +46,13 @@
     "crypto-random-string": "^3.2.0",
     "@types/node": "^13.7.0",
     "faker": "^4.1.0",
-    "qs": "^6.5.2",
-    "query-string": "^6.2.0",
+    "qs": "^6.9.3",
+    "query-string": "^6.11.1",
     "uuid": "^3.3.2",
-    "wolfy87-eventemitter": "^5.2.5"
+    "wolfy87-eventemitter": "^5.2.9"
   },
   "peerDependencies": {
-    "blockstack": "^19.2.1"
+    "blockstack": "^21.0.0"
   },
   "prettier": "@blockstack/prettier-config",
   "scripts": {
